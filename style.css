@@ -1,0 +1,83 @@
+body{
+    
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+    
+}
+.orange-color{
+    color: orange;
+}
+
+
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.half-width{
+    width: 50%;
+    padding: 3%;
+    
+}
+
+.half-width img{
+    width: 60%;
+}
+
+.link_button{
+
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato) ;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+span{
+    color: orange;
+}
+
+.mission-area{
+
+    
+}
+
+.my-mission{
+    text-align: center;
+}
+
+.half-mission{
+    width: 33%;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 20px;
+    background-color: paleturquoise;
+}
+
+.half-missions{
+    width: 33%;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 20px;
+    background-color: tan;
+}
+
+.half-missionary{
+    width: 33%;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 20px;
+    background-color: plum;
+}
+
+#img-change{
+    width: 150px;
+    height: 150px;
+}
