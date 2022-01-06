@@ -1,18 +1,26 @@
 body{
     
     font-family: 'Merriweather', serif;
-    margin: 0;
+    
 }
 
 h1{
     font-size: 50px;
     
+    
+}
+
+#focused-on{
+    border-left: orangered;
 }
 .orange-color{
     color: orange;
 }
 
-
+#stay-mission{
+    display: flex;
+    margin-bottom: 100;
+}
 
 .flexible-container{
     display: flex;
@@ -22,6 +30,7 @@ h1{
 .half-width{
     width: 50%;
     padding: 3%;
+    padding-left: 5%;
     
 }
 
@@ -43,10 +52,11 @@ span{
 
 .mission-area{
 
-    
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
 }
 
-.my-mission{
+.my-missions{
     text-align: center;
 }
 
@@ -80,4 +90,21 @@ span{
 #img-change{
     width: 150px;
     height: 150px;
+}
+.say-mission{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+}
+
+.sty-mission{
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: wheat;
+
 }
