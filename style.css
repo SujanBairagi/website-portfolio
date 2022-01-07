@@ -4,6 +4,13 @@ body{
     
 }
 
+.sujan-edit{
+    border-left: 8px solid orange;
+    padding: auto;
+    
+
+}
+
 h1{
     font-size: 50px;
     
@@ -53,10 +60,11 @@ span{
 .mission-area{
 
     background-image: url(images/shapes/dream-bg.png);
+    background-size: 2px;
     background-repeat: no-repeat;
 }
 
-.my-missions{
+#sujan-ps{
     text-align: center;
 }
 
@@ -95,9 +103,42 @@ span{
 
 .sty-mission{
     background-image: url(images/shapes/shape-3.png);
+    background-size: 80px;
     background-repeat: no-repeat;
     
+    background-position: 50px, left top;
+    background-position-x: 50px, 50%;
+    background-position-y: 50px, 50%;
+
+    
+    
+    
+    
+    
+    
+    
 }
+
+.say-mission{
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 200px;
+    background-position: right bottom, right bottom;
+    background-repeat: no-repeat, repeat;
+    
+    
+    
+}
+
+.stayi-mission{
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    
+    
+}
+
 
 footer{
     text-align: center;
