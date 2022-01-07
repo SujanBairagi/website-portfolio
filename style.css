@@ -4,7 +4,7 @@ body{
     
 }
 
-.sujan-edit{
+.heading-edit{
     border-left: 8px solid orange;
     padding: auto;
     
@@ -64,7 +64,7 @@ span{
     background-repeat: no-repeat;
 }
 
-#sujan-ps{
+#mission-ps{
     text-align: center;
 }
 
@@ -109,19 +109,14 @@ span{
     background-position-x: 50px, 50%;
     background-position-y: 50px, 50%;
 
-    
-    
-    
-    
-    
-    
-    
 }
 
 .say-mission{
     background-image: url(images/shapes/shape-1.png);
     background-size: 200px;
-    background-position: right bottom, right bottom;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-position: right bottom;
     background-repeat: no-repeat, repeat;
     
     
@@ -138,6 +133,11 @@ span{
     
 }
 
+.half-width img{
+    width: 90%;
+
+}
+
 
 footer{
     text-align: center;
@@ -145,3 +145,4 @@ footer{
     color: wheat;
 
 }
+
